@@ -64,12 +64,3 @@ Para correr las pruebas: `mvn test`.
 
 **Administración de usuarios:** hay un solo administrador y los técnicos que hagan falta. El administrador entra a *Usuarios y accesos* desde el menú para agregar técnicos, cambiar contraseñas y eliminar técnicos. La base lo refuerza con el índice `UQ_Usuario_UnSoloAdmin`; si ya tienes la base creada, ejecuta `sql/03_un_solo_admin.sql` sin perder datos.
 
-## Subir a GitHub
-
-```
-git add .
-git commit -m "Mensaje que diga qué cambió"
-git push
-```
-
-No subas tu contraseña real de SQL Server: deja `db.properties` con el valor de ejemplo antes de hacer commit.
